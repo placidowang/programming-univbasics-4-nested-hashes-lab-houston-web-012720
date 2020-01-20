@@ -93,12 +93,6 @@ def adding_matz
       :languages => ["LISP", "C"]
     }
     
-  # p programmer_hash[:grace_hopper][:known_for]
-  
-  # programmer_hash[:grace_hopper][:height] = 34
-  
-  # p programmer_hash[:grace_hopper][:height]
-  
   programmer_hash
 end
 
