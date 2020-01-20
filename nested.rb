@@ -95,9 +95,9 @@ def adding_matz
     
   p programmer_hash[:grace_hopper][:known_for]
   
-  programmer_hash[:grace_hopper][:known_for] = "adskljf"
+  programmer_hash[:grace_hopper][:height] = 34
   
-  p programmer_hash[:grace_hopper][:known_for]
+  p programmer_hash[:grace_hopper][:height]
   
 end
 
