@@ -87,13 +87,18 @@ def adding_matz
         }
      }
   
-  programmer_hash[:yukihiro_matsumoto] =
-    :yukihiro_matsumoto => {
-      :known_for => "Ruby",
-      :languages => ["LISP", "C"]
-    }
+  # programmer_hash[:yukihiro_matsumoto] =
+  #   :yukihiro_matsumoto => {
+  #     :known_for => "Ruby",
+  #     :languages => ["LISP", "C"]
+  #   }
     
-  p programmer_hash
+  p programmer_hash[:grace_hopper][:known_for]
+  
+  programmer_hash[:grace_hopper][:known_for] = "adskljf"
+  
+  p programmer_hash[:grace_hopper][:known_for]
+  
 end
 
 adding_matz
